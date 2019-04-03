@@ -1,5 +1,5 @@
 
-//1.Scrieti o functie care verifica daca un input este sau nu de tip string.//
+//1.Scrieti o functie care verifica daca un input este sau nu de tip string.
 
 function is_string(str) {
     return typeof str === 'string';
