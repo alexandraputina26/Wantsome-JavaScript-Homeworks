@@ -46,6 +46,7 @@ function capitalize(str) {
 
 console.log(capitalize('js string exercises'));
 
+
 //6.Scrieti o functie care elimina un numar specificat de caractere pornind de la inceputul string-ului.//
 
 function truncate_string(str, length) {
@@ -55,6 +56,7 @@ function truncate_string(str, length) {
 }
 
 console.log(truncate_string("Robin Singh",4));
+
 
 //7.Scrieti o functie care specifica daca caracterul de la o anumita pozitie specificata dintr-un string este litera mare sau nu://
 
