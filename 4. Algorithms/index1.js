@@ -205,7 +205,6 @@ repeatFunction("Great!", 12);
 
 
 
-
 //Ex10
 // Implementati o functie care accepta doua argumente: un array si o functie de adevar. Functia returneaza primul element din array care trece testul specificat
 
@@ -216,4 +215,4 @@ repeatFunction("Great!", 12);
 
 
 // Ex 13
-// Scrieti o functie care elimina toate valorile false dintr-un array: false, null, 0, "", undefined, NaN
+// Scrieti o functie care elimina toate valorile false dintr-un array: false, null, 0, "", undefined, NaN.
