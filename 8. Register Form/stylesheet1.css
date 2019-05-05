@@ -1,0 +1,18 @@
+body {
+    width: 300px;
+    padding: 10px;
+    border: solid 1px black;
+    margin-left: 400px;
+}
+
+#submit {
+    width: 300px;
+    height: 40px;
+    background-color: rgba(0, 0, 0, 0.014);
+    border-radius: 15px;
+    font-size: larger;
+}
+
+h1, #myform {
+    background-color: darksalmon;
+}

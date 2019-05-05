@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>JavaScriptFormHomework</title>
+        <link rel="stylesheet" type="text/css" href="stylesheet1.css">
+    </head>
+    
+    <body>
+        <h1>Get your own Site 42 Sites<br>account in seconds</h1>
+        <form action="" name="myform" id="myform">
+            <table cellspacing="2" cellpadding="2">
+                <tr>
+                    USERNAME:<br><input id="username1" type="text" name="UserName" minlength="4" pattern="[a-zA-Z0-9_-]{4,10}"><br>
+                    (Must be at least 4 characters, letters and numbers only.)<br><br>
+                </tr>
+                <tr>
+                    EMAIL ADDRESS:<br><input type="email" name="Email"><br>
+                    We send your registration email to this address. (Double-<br>check your email address before continuing.)<br><br>
+                </tr>
+                <tr>
+                    FIRST NAME:<br><input type="text" name="FirstName" required><br>
+                    (Must be input.)<br><br>
+                </tr>
+                <tr>
+                    LAST NAME:<br><input type="text" name="LastName" required><br>
+                    (Must be input.)<br><br>
+                </tr>
+                <tr>
+                    NICKNAME:<br><input type="text" name="Nickname"><br><br>
+                </tr>
+                <tr>
+                    PHONE:<br><input id="Phone" name="phone" minlength="10" pattern="\d*"><br>
+                    (Must be at least 10 characters, numbers only.)<br><br>
+                </tr>
+
+                <label for="GIMME A SITE!">GIMME A SITE!</label>
+                <input type="radio" name="GIMME A SITE!" value="GIMME A SITE!" checked><br>
+                <label for="JUST A USERNAME">JUST A USERNAME, PLEASE.</label>
+                <input type="radio" name="GIMME A SITE!" value="JUST A USERNAME"><br><br>
+                <input id="submit" type="submit" value="Next">
+            </table>
+        </form>
+        
+        <script type="text/javascript" src="index1.js"></script>
+
+    </body>
+
+</html>
