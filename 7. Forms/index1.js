@@ -1,6 +1,6 @@
 function checkFunction() {
     const checkBox = document.getElementById("myCheck");
-    const text = document.getElementById("secondTextarea")
+    const text = document.getElementById("secondTextarea");
     if (checkBox.checked == true){
         text.style.display = "block";
       } else {
@@ -23,12 +23,19 @@ function validationEvent() {
 
 function buttonEventHandler() {
     const selectedElement = document.getElementById("button").value;
-    if (text.length <= 10) {
+    if (text.length == "") {
         selectedElement.getElementById("button").disabled = true;
     } else {
         selectedElement.getElementById("button").disabled = false;
     }
 }
 document.addEventListener("keydown", buttonEventHandler);
+
+function Validator() {
+    const formValidator = new Validator("myform");
+    formValidator.addValidation("req","Please enter your observations");
+    formValidator.EnableOnPageErrorDisplay();
+    formValidator.EnableMsgsTogether();
+}
 
 
