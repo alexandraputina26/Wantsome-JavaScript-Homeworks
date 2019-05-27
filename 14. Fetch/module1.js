@@ -4,7 +4,7 @@
 //.then - returnam user names si city
 //hint nu uitati sa transformati primul raspuns ca si json
 // 
-
+//
 
 
 const url = "https://jsonplaceholder.typicode.com/users"
